@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/login.css">
+    <script src="/js/scripts.js"></script>
+</head>
+<body>
+    <form name="form" id="Loginform">
+        <ul style="list-style-type:none;">
+          <li><label for="usermail" class="headerlogin">Username</label>
+          <input type="text" id="usermail" name="usermail" ></li>
+          <br>
+          <li><label for="password" class="headerlogin">Password</label>
+          <input type="password" name="password" ></li>
+          <li>
+            <br>
+          <input type="button" id="Loginbutton" value="Login" onclick= allowlogin(usermail)></li>
+          <br>
+        </ul>
+      </form>
+    </form>
+</body>
+</html>
