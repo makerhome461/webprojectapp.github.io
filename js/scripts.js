@@ -22,7 +22,7 @@ aptrinsic("identify",
 
 });
         alert('valid user');
-        location.href = "dashboard.html";
+        location.href = "index.html";
     }
    
 }
