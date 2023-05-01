@@ -5,7 +5,7 @@
   var c=t.getElementsByTagName("script")[0];c.parentNode.insertBefore(r,c)
 })(window,document);
 
-function allowlogin(usermail)
+var function allowlogin(usermail)
 {
     var a = document.getElementById("usermail").value;
     if (a == 'demo@example.com' || a == 'demo1@example.com' || a == 'demo3@example.com')
